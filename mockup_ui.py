@@ -82,6 +82,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+#Random shit einfügen
 else:
     Bäume:list = ['Eiche', 'Fichte','Föhre']
     for Baum in Bäume:
