@@ -82,5 +82,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+else:
+    Bäume:list = ['Eiche', 'Fichte','Föhre']
+    for Baum in Bäume:
+        print(Baum)
 
-#Test Kommentar
+list_1 = []
+    
