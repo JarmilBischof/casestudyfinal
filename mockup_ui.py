@@ -4,7 +4,8 @@ from backend import UserDatabase, DeviceDatabase  # Updated import statements
 def create_new_user(user_db):
     st.title("Nutzer anlegen")
     username = st.text_input("Benutzername")
-    email = st.text_input("E-Mail")    role = st.selectbox("Rolle", ["Geräteverantwortlicher", "Reservierer"])
+    email = st.text_input("E-Mail")    
+    role = st.selectbox("Rolle", ["Geräteverantwortlicher", "Reservierer"])
     
     submitted = st.button("Nutzer anlegen")
     
